@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'CloisterBlack';
+	src: url('CloisterBlack.ttf');
+}
+
+@font-face{
+    font-family: 'Pacifico';
+    src: url('Pacifico.ttf');
+}
+
+@font-face{
+    font-family: 'gloria';
+    src: url('GloriaHallelujah.ttf');
+}
+
+@font-face{
+    font-family: 'nothing';
+    src: url('NothingYouCouldDo.ttf');
+}
+
+@font-face{
+    font-family: 'elite';
+    src: url('SpecialElite.ttf');
+}
+
+
+html, body {
+    height: 100%;
+}
+
+h1{
+    font-family: 'CloisterBlack', monospace;
+    font-size: 300%;
+    color: aliceblue;
+    width: 50%;
+}
+
+body{
+    background-image: url("images/The-Master-Mind-L-Death-Note-HD-Wallpaper.jpg");
+    background-size: cover;
+    background-position:top center;
+}
+
+.cblack{
+    font-family: 'CloisterBlack', monospace;
+    color: aliceblue;
+    font-size: 200%;
+}
+
+#contain{
+    line-height: 500%;
+}
+
+.buton{
+    background-color: inherit;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.modal{
+    display: none;
+    background-color: aliceblue;
+    z-index: 3;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 20%;
+    border-radius: 5px;
+    font-size: 150%;
+    font-family: 'Pacifico', monospace;
+}
+
+#blu{
+    filter: blur(5px);
+}
+
+fieldset{
+    border: 0px solid;
+}
+
+.modalbuton{
+    border-radius: 20px;
+    font-size: 150%;
+    font-family: 'elite', monospace;
+}
+
+
+.about{
+    display: none;
+    background-color: inherit;
+    z-index: 3;
+    position: absolute;
+    font-weight: bold;
+    top: 10%;
+    left: 15%;
+    opacity: 0.8;
+    right: 20%;
+    border-radius: 5px;
+    font-size: 150%;
+    font-family: 'nothing', monospace;
+    background: linear-gradient(to right, #932424 , #5c5c98);
+}

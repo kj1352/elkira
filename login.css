@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'CloisterBlack';
+	src: url('CloisterBlack.ttf');
+}
+
+
+
+body{
+    background-color: black;
+    background-image: url('anime-death-note-facebook-cover-timeline-banner-for-fb.jpg');
+    background-size: contain;
+    background-position:left bottom;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.login_form{
+    text-align: center;
+    font-family: 'CloisterBlack', monospace;
+    background-color: inherit;
+    color: aliceblue;
+ 
+}
+
+.login_modal{
+    
+    padding-top: 10%;
+    
+}
+
+fieldset{
+    border: 0px solid;
+}
+

@@ -60,10 +60,8 @@ $(document).ready(function () {
         });
     });
 
-    $("#about").hover(function () {
-        $('.about').show(300);
-    }, function () {
-        $('.about').fadeOut(1500);
+    $('#about').click(function () {
+        $('.about').show(400);
     });
-
+    
 });

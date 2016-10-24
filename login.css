@@ -6,8 +6,8 @@
 
 
 body{
+    
     background-color: black;
-    background-image: url('anime-death-note-facebook-cover-timeline-banner-for-fb.jpg');
     background-size: contain;
     background-position:left bottom;
     background-repeat: no-repeat;
@@ -16,20 +16,30 @@ body{
 }
 
 .login_form{
+    background-image: url('32dee6533152611f3d936238b0723244.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
     font-family: 'CloisterBlack', monospace;
-    background-color: inherit;
-    color: aliceblue;
- 
+    background-color: black;
+    color: red;
+    font-size: 200%;
 }
 
-.login_modal{
-    
-    padding-top: 10%;
-    
+input{
+    font-size: 100%;
+    border-radius: 5px;
 }
+
 
 fieldset{
     border: 0px solid;
 }
 
+button{
+    box-shadow: 5px 5px black;
+    border: 0px solid;
+    border-radius: 3px;
+    background-color: #fa0000;
+    font-size: 100%;
+}

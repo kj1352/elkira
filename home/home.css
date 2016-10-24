@@ -88,15 +88,23 @@ fieldset{
 .about{
     display: none;
     background-color: inherit;
+    color: aliceblue;    
     z-index: 3;
     position: absolute;
     font-weight: bold;
     top: 10%;
     left: 15%;
-    opacity: 0.8;
     right: 20%;
     border-radius: 5px;
     font-size: 150%;
     font-family: 'nothing', monospace;
-    background: linear-gradient(to right, #932424 , #5c5c98);
+}
+
+.others{
+    color: white;
+    float: left;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 70%;
 }

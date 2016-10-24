@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+    <title>L-Kira</title>
 </head>
 <body>
     
 <fieldset class="login_modal">
     <div class="login_form">
-        <fieldset><label>UserName:</label><input type="text" placeholder="usrname"></fieldset>
-        <fieldset><label>Password:</label><input type="password" placeholder="password"></fieldset>
-        <button class="login" type="submit">Login</button><br><a href="">Register</a><br>
-        <button class="guest">Guest User</button>         
+      <div class="statement" style="font-family:monospace;"><h4>If You Are a New User.. Please Type in Below</h4>
+          <h5>Else <a href="signin.html">Click Here</a> To Login</h5></div>
+        <fieldset><label>UserName:</label><input id="uname" type="text" placeholder="usrname" required></fieldset>
+        <button class="login" type="submit">Register</button>
     </div>
-</fieldset>    
-    
+    <button class="guest">Guest User</button>         
+</fieldset> 
+        
     
     
     
@@ -24,5 +25,14 @@
 
 <script src="jquery-1.8.0.min.js"></script>
 <script src="login.js"></script>
+
+<script>
+
+    $('.guest').click( function () {
+        location.assign("home/home.html");
+    });
+    
+    
+</script>
 
 </html>
